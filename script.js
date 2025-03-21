@@ -48,7 +48,7 @@ async function converte(){
         return
     }
 
-    let convertido = (num / taxa).toFixed(2)  
+    let convertido = (num * taxa).toFixed(2)  
     resultado.innerHTML = `R$ ${num} equivalem a ${convertido} ${moeda}`
 }
 
